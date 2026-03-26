@@ -18,6 +18,7 @@ def lambda_handler(event, context):
             db=os.environ['DB_NAME'],
             charset='utf8mb4',
             cursorclass=pymysql.cursors.DictCursor
+            
         )
 
         with conn.cursor() as cursor:
