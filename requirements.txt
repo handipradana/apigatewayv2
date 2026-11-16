@@ -4,4 +4,3 @@ boto3
 requests
 werkzeug
 redis
-tes
